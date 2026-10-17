@@ -4,15 +4,11 @@
 const ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
 export const esc = (s = "") => String(s).replace(/[&<>"']/g, (c) => ESC[c]);
 
-const IMG_WIDTHS = [640, 960, 1440, 2000];
-
-/** Unsplash-hosted responsive image (hotlinked, as Unsplash's guidelines ask). */
-function img(site, key, alt, { sizes = "100vw", eager = false, cls = "" } = {}) {
+/** Self-hosted illustration (SVG scales to any width, so no srcset needed). */
+function img(site, key, alt, { eager = false, cls = "", base = "../" } = {}) {
   const im = site.images[key];
-  const url = (w) => `${im.src}?auto=format&fit=max&q=72&w=${w}`;
-  const srcset = IMG_WIDTHS.map((w) => `${url(w)} ${w}w`).join(", ");
   const loading = eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
-  return `<img class="photo photo--${key} ${cls}" src="${url(1440)}" srcset="${srcset}" sizes="${sizes}" width="${im.w}" height="${im.h}" alt="${esc(alt)}" ${loading} decoding="async">`;
+  return `<img class="photo photo--${key} ${cls}" src="${base}${im.src}" width="${im.w}" height="${im.h}" alt="${esc(alt)}" ${loading} decoding="async">`;
 }
 
 function price(lang, n) {
@@ -51,7 +47,7 @@ function headLinks(site, all, lang) {
 
 export const CSP = [
   "default-src 'self'",
-  "img-src 'self' https://images.unsplash.com data:",
+  "img-src 'self' data:",
   "style-src 'self'",
   "font-src 'self'",
   "script-src 'self'",
@@ -84,8 +80,7 @@ function head({ site, t, all, lang, title, description, ogImage, path }) {
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
   <meta name="twitter:image" content="${ogImage}">
-  <link rel="preconnect" href="https://images.unsplash.com">
-  <link rel="preload" as="image" href="${site.images.hero.src}?auto=format&amp;fit=max&amp;q=72&amp;w=1440" imagesrcset="${[640, 960, 1440, 2000].map((w) => `${site.images.hero.src}?auto=format&amp;fit=max&amp;q=72&amp;w=${w} ${w}w`).join(", ")}" imagesizes="100vw" fetchpriority="high">
+  <link rel="preload" as="image" href="${lang ? "../" : ""}${site.images.hero.src}" type="image/svg+xml" fetchpriority="high">
   <link rel="icon" href="${lang ? "../" : ""}assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="${lang ? "../" : ""}assets/fonts/serif-${lang || "root"}.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="${lang ? "../" : ""}assets/fonts-${lang || "root"}.css">
@@ -96,7 +91,7 @@ function head({ site, t, all, lang, title, description, ogImage, path }) {
 }
 
 export function ogImage(site) {
-  return `${site.images.hero.src}?auto=format&fit=crop&w=1200&h=630&q=75`;
+  return `${site.siteUrl}/${site.ogImage}`;
 }
 
 export function renderPage({ site, t, all }) {
@@ -155,9 +150,7 @@ export function renderPage({ site, t, all }) {
     .map((f) => `<details class="faq__item"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`)
     .join("");
 
-  const credits = Object.entries(site.images)
-    .map(([, im]) => `<li>${extLink(im.page, esc(im.author), t)}</li>`)
-    .join("");
+  const credits = `<li>${esc(t.footer.illustrationCredit)}</li>`;
 
   const sources = site.sources.map((s) => `<li>${extLink(s.url, esc(s.label), t)}</li>`).join("");
 
@@ -183,7 +176,6 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
 <main id="top" tabindex="-1">
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero__media">${img(site, "hero", t.hero.imageAlt, { eager: true })}</div>
-    <div class="hero__rain" aria-hidden="true"></div>
     <p class="hero__vertical" lang="ja" aria-hidden="true">小雨</p>
     <div class="hero__body">
       <p class="hero__place">${esc(t.hero.place)}</p>
@@ -284,7 +276,7 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     <p>${esc(t.footer.updated)}: <time datetime="${site.updated}">${site.updated}</time></p>
     <div class="footer__lists">
       <div><h2 class="footer__h">${esc(t.footer.sources)}</h2><ul>${sources}</ul></div>
-      <div><h2 class="footer__h">${esc(t.footer.credits)} (Unsplash)</h2><ul>${credits}</ul></div>
+      <div><h2 class="footer__h">${esc(t.footer.credits)}</h2><ul>${credits}</ul></div>
     </div>
   </div>
   ${langSwitch(t, all, lang, t.ui.langSwitchFooter)}
@@ -309,8 +301,7 @@ export function renderRoot({ site, all }) {
 ${head({ site, t: null, all, lang: null, title, description, ogImage: ogImage(site), path: "" })}
 <body class="root">
 <main class="root__main">
-  <div class="hero__media">${img(site, "hero", ko.hero.imageAlt, { eager: true })}</div>
-  <div class="hero__rain" aria-hidden="true"></div>
+  <div class="hero__media">${img(site, "hero", ko.hero.imageAlt, { eager: true, base: "" })}</div>
   <div class="root__body">
     <p class="root__kanji" lang="ja">小雨</p>
     <h1 class="root__title">Cafe Kosame</h1>

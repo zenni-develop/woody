@@ -20,7 +20,10 @@ kosame/
 │  ├─ i18n/ko|ja|en.json  # 언어별 문구
 │  └─ data/site.json      # 영업시간·가격·링크·사진 등 공통 정보
 ├─ public/assets/         # CSS, JS, 파비콘, 서브셋 폰트
+├─ public/images/         # 오리지널 SVG 일러스트 (tools/illustrations.py로 생성)
 ├─ tools/subset-fonts.py  # 사용 글자만 남긴 woff2 폰트 생성
+├─ tools/illustrations.py # 일러스트 생성
+├─ tools/og-image.py      # 공유 이미지(1200×630) 생성
 └─ docs/                  # 조사 자료, 디자인 플랜, 검토 로그, 에셋 목록, 용어집
 ```
 
@@ -42,7 +45,7 @@ node build.mjs --check          # 빠진 글자가 있으면 실패
 ## 정보 수정
 - 영업시간·휴무: `src/data/site.json`의 `hours` (요일 번호 0=일요일 … 4=목요일) + 각 언어 `ketsu.info`
 - 가격: `src/data/site.json`의 `menu`
-- 사진 교체: `docs/asset-list.md` 참고
+- 일러스트 수정·교체: `docs/asset-list.md` 참고
 - 정보 기준일: `src/data/site.json`의 `updated`
 
 ## 배포 (GitHub Pages)

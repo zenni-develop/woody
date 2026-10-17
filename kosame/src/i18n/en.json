@@ -45,7 +45,7 @@
       "a green tearoom down the lane"
     ],
     "lead": "A few steps from the busy streets, in a quiet residential lane. Dango and matcha, served in a small room full of plants.",
-    "imageAlt": "A cafe filled with green plants under a sunlit glass roof"
+    "imageAlt": "Illustration of a tearoom full of plants and trailing vines under a glass roof, light rain outside"
   },
   "ki": {
     "kanji": "起",
@@ -58,7 +58,7 @@
     ],
     "note": "The owner credits regular guests for keeping such a small shop going for years, and closes each year with a promise to keep to the basics.",
     "noteSource": "Summary of a Cafe Kosame Instagram post, December 2024",
-    "imageAlt": "Potted plants on wooden stools and shelves by a sunlit window"
+    "imageAlt": "Illustration of potted plants on shelves and a stool by a sunny window"
   },
   "sho": {
     "kanji": "承",
@@ -137,10 +137,10 @@
     ],
     "priceNote": "Prices are from public listings as of October 2026 and may change.",
     "imageAlt": {
-      "matcha": "Matcha latte with leaf latte art on a wooden table",
-      "hojicha": "A tea latte with a brown layer over milk foam",
-      "dango": "Colorful dango on skewers",
-      "fig": "Whole and halved figs on a wooden table"
+      "matcha": "Illustration of a matcha latte with leaf latte art",
+      "hojicha": "Illustration of a hojicha latte layered over milk",
+      "dango": "Illustration of mitarashi, matcha and soybean dango skewers with cherry tomatoes",
+      "fig": "Illustration of whole and halved figs on linen"
     }
   },
   "ten": {
@@ -243,15 +243,16 @@
       }
     ],
     "closing": "After the rain, step into the green tearoom down the lane.",
-    "imageAlt": "A bright window lined with potted plants, rain on the city outside"
+    "imageAlt": "Illustration of potted plants lining a window in light rain"
   },
   "footer": {
     "instagram": "Instagram @cafekosame",
     "instagramNote": "Closures and new menu items appear on Instagram first.",
-    "photoNote": "Photos on this page are mood images from Unsplash. They don’t show the actual cafe or its menu.",
+    "photoNote": "The pictures on this page are original illustrations drawn to convey the mood. The actual cafe and menu may look different.",
     "updated": "Information as of",
     "sources": "Sources",
-    "credits": "Photos",
-    "disclaimer": "An introduction page based on publicly available information. Please check hours and prices on Instagram before you visit."
+    "credits": "Illustrations",
+    "disclaimer": "An introduction page based on publicly available information. Please check hours and prices on Instagram before you visit.",
+    "illustrationCredit": "Original SVG artwork drawn for this page"
   }
 }

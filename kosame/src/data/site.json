@@ -27,60 +27,46 @@
   },
   "images": {
     "hero": {
-      "src": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56",
-      "w": 6720,
-      "h": 4480,
-      "focus": "55% 55%",
-      "author": "Ruben Ramirez",
-      "page": "https://unsplash.com/photos/xhKG01FN2uk"
+      "src": "images/hero.svg",
+      "w": 1500,
+      "h": 1000,
+      "focus": "72% 55%"
     },
     "room": {
-      "src": "https://images.unsplash.com/photo-1601985705806-5b9a71f6004f",
-      "w": 3959,
-      "h": 5938,
-      "focus": "50% 60%",
-      "author": "Ceyda Çiftci",
-      "page": "https://unsplash.com/photos/dDVU6D_6T80"
+      "src": "images/room.svg",
+      "w": 800,
+      "h": 1000,
+      "focus": "50% 50%"
     },
     "matcha": {
-      "src": "https://images.unsplash.com/photo-1628088784459-0eebea2d3ecf",
-      "w": 5472,
-      "h": 3648,
-      "focus": "45% 50%",
-      "author": "natasha t",
-      "page": "https://unsplash.com/photos/-qhq9Bojz1w"
+      "src": "images/matcha.svg",
+      "w": 1200,
+      "h": 900,
+      "focus": "50% 50%"
     },
     "hojicha": {
-      "src": "https://images.unsplash.com/photo-1585494156145-1c60a4fe952b",
-      "w": 3456,
-      "h": 5184,
-      "focus": "50% 45%",
-      "author": "Mayur",
-      "page": "https://unsplash.com/photos/op3-8qlNq-o"
+      "src": "images/hojicha.svg",
+      "w": 900,
+      "h": 1200,
+      "focus": "50% 60%"
     },
     "dango": {
-      "src": "https://images.unsplash.com/photo-1785594023749-4f8a60f897fb",
-      "w": 6336,
-      "h": 9504,
-      "focus": "55% 35%",
-      "author": "Diana Bondarenko",
-      "page": "https://unsplash.com/photos/lm5OPG5gODk"
+      "src": "images/dango.svg",
+      "w": 1200,
+      "h": 800,
+      "focus": "50% 50%"
     },
     "fig": {
-      "src": "https://images.unsplash.com/photo-1737099076114-0a60973dd1f4",
-      "w": 3543,
-      "h": 5315,
-      "focus": "50% 55%",
-      "author": "Maria Kovalets",
-      "page": "https://unsplash.com/photos/8GHTs-M2_Xc"
+      "src": "images/fig.svg",
+      "w": 1280,
+      "h": 720,
+      "focus": "50% 55%"
     },
     "window": {
-      "src": "https://images.unsplash.com/photo-1606246551553-344d599d262a",
-      "w": 2676,
-      "h": 3311,
-      "focus": "50% 62%",
-      "author": "Kyle Austin",
-      "page": "https://unsplash.com/photos/Q-5tt6mqkbQ"
+      "src": "images/window.svg",
+      "w": 1600,
+      "h": 1000,
+      "focus": "50% 68%"
     }
   },
   "ratings": [
@@ -207,5 +193,6 @@
       "label": "Tripadvisor",
       "url": "https://www.tripadvisor.com/Restaurant_Review-g297889-d17468736-Reviews-Cafe_Kosame-Incheon.html"
     }
-  ]
+  ],
+  "ogImage": "og/og-image.jpg"
 }
