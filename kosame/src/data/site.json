@@ -27,60 +27,60 @@
   },
   "images": {
     "hero": {
-      "src": "https://images.unsplash.com/photo-1643287146701-93c795880dda",
-      "w": 6000,
-      "h": 4000,
-      "focus": "50% 50%",
-      "author": "Max van den Oetelaar",
-      "page": "https://unsplash.com/photos/1e60bqR1Ar0"
+      "src": "https://images.unsplash.com/photo-1600093463592-8e36ae95ef56",
+      "w": 6720,
+      "h": 4480,
+      "focus": "55% 55%",
+      "author": "Ruben Ramirez",
+      "page": "https://unsplash.com/photos/xhKG01FN2uk"
     },
     "room": {
-      "src": "https://images.unsplash.com/photo-1631669394390-baf737ef47de",
-      "w": 3024,
-      "h": 4032,
-      "focus": "40% 50%",
-      "author": "PhilCreates",
-      "page": "https://unsplash.com/photos/xPtiN7OmaXg"
+      "src": "https://images.unsplash.com/photo-1601985705806-5b9a71f6004f",
+      "w": 3959,
+      "h": 5938,
+      "focus": "50% 60%",
+      "author": "Ceyda Çiftci",
+      "page": "https://unsplash.com/photos/dDVU6D_6T80"
     },
     "matcha": {
-      "src": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7",
-      "w": 4898,
-      "h": 3265,
-      "focus": "55% 45%",
-      "author": "Jason Leung",
-      "page": "https://unsplash.com/photos/Z-hvocTfR_s"
+      "src": "https://images.unsplash.com/photo-1628088784459-0eebea2d3ecf",
+      "w": 5472,
+      "h": 3648,
+      "focus": "45% 50%",
+      "author": "natasha t",
+      "page": "https://unsplash.com/photos/-qhq9Bojz1w"
     },
     "hojicha": {
-      "src": "https://images.unsplash.com/photo-1674642387246-463a03b100be",
-      "w": 4160,
-      "h": 6240,
-      "focus": "50% 60%",
-      "author": "Büşra İnce",
-      "page": "https://unsplash.com/photos/djWJLL91_KQ"
+      "src": "https://images.unsplash.com/photo-1585494156145-1c60a4fe952b",
+      "w": 3456,
+      "h": 5184,
+      "focus": "50% 45%",
+      "author": "Mayur",
+      "page": "https://unsplash.com/photos/op3-8qlNq-o"
     },
     "dango": {
-      "src": "https://images.unsplash.com/photo-1785594023729-908a1bfb7d04",
-      "w": 9504,
-      "h": 6336,
-      "focus": "45% 50%",
+      "src": "https://images.unsplash.com/photo-1785594023749-4f8a60f897fb",
+      "w": 6336,
+      "h": 9504,
+      "focus": "55% 35%",
       "author": "Diana Bondarenko",
-      "page": "https://unsplash.com/photos/KMnVNWxbCVc"
+      "page": "https://unsplash.com/photos/lm5OPG5gODk"
     },
     "fig": {
-      "src": "https://images.unsplash.com/photo-1790293840932-a568128dbb1f",
-      "w": 8177,
-      "h": 5454,
-      "focus": "55% 60%",
-      "author": "Heather Newsom",
-      "page": "https://unsplash.com/photos/iW5MaQKTU6w"
-    },
-    "alley": {
-      "src": "https://images.unsplash.com/photo-1782915109136-49a43a42e239",
-      "w": 3839,
-      "h": 2400,
+      "src": "https://images.unsplash.com/photo-1737099076114-0a60973dd1f4",
+      "w": 3543,
+      "h": 5315,
       "focus": "50% 55%",
-      "author": "Julien",
-      "page": "https://unsplash.com/photos/7J50ltZEYdQ"
+      "author": "Maria Kovalets",
+      "page": "https://unsplash.com/photos/8GHTs-M2_Xc"
+    },
+    "window": {
+      "src": "https://images.unsplash.com/photo-1606246551553-344d599d262a",
+      "w": 2676,
+      "h": 3311,
+      "focus": "50% 62%",
+      "author": "Kyle Austin",
+      "page": "https://unsplash.com/photos/Q-5tt6mqkbQ"
     }
   },
   "ratings": [

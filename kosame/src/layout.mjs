@@ -69,7 +69,7 @@ function head({ site, t, all, lang, title, description, ogImage, path }) {
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
-  <meta name="theme-color" content="#17242A">
+  <meta name="theme-color" content="#F7F9F4">
   ${lang ? headLinks(site, all, lang) : `<link rel="canonical" href="${site.siteUrl}/">\n  ${all.map((o) => `<link rel="alternate" hreflang="${o.lang}" href="${site.siteUrl}/${o.lang}/">`).join("\n  ")}\n  <link rel="alternate" hreflang="x-default" href="${site.siteUrl}/">`}
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Cafe Kosame 小雨">
@@ -210,7 +210,7 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     <figure class="chapter__media chapter__media--tall">${img(site, "room", t.ki.imageAlt, { sizes: "(min-width: 960px) 40vw, 100vw" })}</figure>
   </section>
 
-  <section class="chapter chapter--sho" id="menu" aria-labelledby="sho-title">
+  <section class="chapter chapter--band chapter--sho" id="menu" aria-labelledby="sho-title">
     ${rail(t.sho)}
     <div class="chapter__text">
       <h2 id="sho-title" class="chapter__title">${esc(t.sho.heading)}</h2>
@@ -232,7 +232,7 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     </div>
   </section>
 
-  <section class="chapter chapter--ten" aria-labelledby="ten-title">
+  <section class="chapter chapter--band chapter--ten" aria-labelledby="ten-title">
     ${rail(t.ten)}
     <div class="chapter__text">
       <h2 id="ten-title" class="chapter__title chapter__title--quote">${esc(t.ten.heading)}</h2>
@@ -251,8 +251,8 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     </div>
   </section>
 
-  <section class="chapter chapter--ketsu" id="visit" aria-labelledby="ketsu-title">
-    <div class="ketsu__media">${img(site, "alley", t.ketsu.imageAlt, { sizes: "100vw" })}</div>
+  <section class="chapter chapter--band chapter--ketsu" id="visit" aria-labelledby="ketsu-title">
+    <div class="ketsu__media">${img(site, "window", t.ketsu.imageAlt, { sizes: "100vw" })}</div>
     ${rail(t.ketsu)}
     <div class="chapter__text">
       <h2 id="ketsu-title" class="chapter__title">${esc(t.ketsu.heading)}</h2>

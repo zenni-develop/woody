@@ -1,17 +1,17 @@
 # 에셋 목록 (출처 · 라이선스 · 사용 위치)
 
 ## 사진 — 모두 Unsplash License (상업적 이용 가능, 출처 표기 의무 없음. 페이지 하단에 작가명 표기함)
-분위기 연출용이며 실제 매장·메뉴 사진이 아닙니다. 사진 속 인물은 뒷모습뿐이라 식별 불가.
+분위기 연출용이며 실제 매장·메뉴 사진이 아닙니다. 사진에 식별 가능한 인물 없음.
 
 | 키 | 사용 위치 | 작가 | 원본 |
 |---|---|---|---|
-| hero | 히어로, OG 이미지 | Max van den Oetelaar | https://unsplash.com/photos/1e60bqR1Ar0 |
-| room | 起 (공간) | PhilCreates | https://unsplash.com/photos/xPtiN7OmaXg |
-| matcha | 承 (맛차라떼) | Jason Leung | https://unsplash.com/photos/Z-hvocTfR_s |
-| dango | 承 (당고) | Diana Bondarenko | https://unsplash.com/photos/KMnVNWxbCVc |
-| fig | 承 (가을 한정) | Heather Newsom | https://unsplash.com/photos/iW5MaQKTU6w |
-| hojicha | 転 | Büşra İnce | https://unsplash.com/photos/djWJLL91_KQ |
-| alley | 結 | Julien | https://unsplash.com/photos/7J50ltZEYdQ |
+| hero | 히어로, OG 이미지 (유리 지붕 아래 식물 가득한 카페) | Ruben Ramirez | https://unsplash.com/photos/xhKG01FN2uk |
+| room | 起 (햇살 드는 창가의 화분) | Ceyda Çiftci | https://unsplash.com/photos/dDVU6D_6T80 |
+| matcha | 承 (맛차라떼) | natasha t | https://unsplash.com/photos/-qhq9Bojz1w |
+| dango | 承 (당고) | Diana Bondarenko | https://unsplash.com/photos/lm5OPG5gODk |
+| fig | 承 (가을 한정) | Maria Kovalets | https://unsplash.com/photos/8GHTs-M2_Xc |
+| hojicha | 転 | Mayur | https://unsplash.com/photos/op3-8qlNq-o |
+| window | 結 (비 오는 바깥, 화분 놓인 밝은 창가) | Kyle Austin | https://unsplash.com/photos/Q-5tt6mqkbQ |
 
 교체 방법: `src/data/site.json` → `images.<키>.src`를 새 경로(예: `../images/hero.webp`)로 바꾸고 `w`, `h`, `focus`(초점 위치), `author`, `page`를 수정. 자체 호스팅으로 바꾸면 CSP의 `img-src`에서 `images.unsplash.com`을 지워도 됩니다.
 

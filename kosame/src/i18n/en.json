@@ -4,7 +4,7 @@
   "ogLocale": "en_US",
   "meta": {
     "title": "Cafe Kosame | A small Japanese-style tearoom in Incheon",
-    "description": "Cafe Kosame is a ten-pyeong Japanese-style tearoom tucked into a quiet residential lane in Guwol-dong, Incheon. Mitarashi dango, rich matcha and hojicha drinks. Open 12–9 pm, closed Thursdays."
+    "description": "Cafe Kosame is a small Japanese-style tearoom full of plants, tucked into a quiet lane in Guwol-dong, Incheon. Mitarashi dango, rich matcha and hojicha. Open 12–9 pm, closed Thursdays."
   },
   "ui": {
     "skip": "Skip to content",
@@ -41,24 +41,24 @@
   "hero": {
     "place": "Guwol-dong, Incheon",
     "title": [
-      "For a light-rain kind of day,",
-      "a small tearoom down the lane"
+      "After a light rain,",
+      "a green tearoom down the lane"
     ],
-    "lead": "A few steps from the busy streets, in a quiet residential lane. Dango and matcha, served in a room of about 33 square meters.",
-    "imageAlt": "Evening lights blurred through a rain-speckled window"
+    "lead": "A few steps from the busy streets, in a quiet residential lane. Dango and matcha, served in a small room full of plants.",
+    "imageAlt": "A cafe filled with green plants under a sunlit glass roof"
   },
   "ki": {
     "kanji": "起",
     "label": "Arriving",
     "heading": "The name comes from a gentle rain",
     "paras": [
-      "Kosame (小雨) is Japanese for light rain. Like rain that falls without a sound, time here moves quietly.",
-      "About ten minutes on foot from Arts Center Station on Incheon Line 1. Where the noise of the Rodeo shopping street fades, a tearoom of wooden furniture, soft lamps, a few books and a small terrace waits in a residential lane.",
+      "Kosame (小雨) is Japanese for light rain. Like leaves after a gentle shower, time here feels quiet and fresh.",
+      "About ten minutes on foot from Arts Center Station on Incheon Line 1. Where the noise of the Rodeo shopping street fades, a tearoom of wooden furniture, green plants, bamboo blinds, a few books and a small terrace waits in a residential lane.",
       "Visitors have been writing about it since 2019, and it has kept its doors open in the same spot ever since."
     ],
     "note": "The owner credits regular guests for keeping such a small shop going for years, and closes each year with a promise to keep to the basics.",
     "noteSource": "Summary of a Cafe Kosame Instagram post, December 2024",
-    "imageAlt": "A small warmly lit room with a wooden desk and bookshelves"
+    "imageAlt": "Potted plants on wooden stools and shelves by a sunlit window"
   },
   "sho": {
     "kanji": "承",
@@ -137,10 +137,10 @@
     ],
     "priceNote": "Prices are from public listings as of October 2026 and may change.",
     "imageAlt": {
-      "matcha": "Matcha latte with leaf-shaped latte art",
-      "hojicha": "A brown tea latte on a wooden coaster",
-      "dango": "Chewy dango on skewers",
-      "fig": "Halved figs on a linen cloth"
+      "matcha": "Matcha latte with leaf latte art on a wooden table",
+      "hojicha": "A tea latte with a brown layer over milk foam",
+      "dango": "Colorful dango on skewers",
+      "fig": "Whole and halved figs on a wooden table"
     }
   },
   "ten": {
@@ -182,7 +182,7 @@
     "kanji": "結",
     "label": "Visiting",
     "heading": "Today, down the lane",
-    "lead": "It suits a rainy day best. Just check the closing day before you set out.",
+    "lead": "Doors open at noon. It suits a sunny afternoon as well as a rainy one. Just remember it’s closed on Thursdays.",
     "info": [
       {
         "term": "Hours",
@@ -242,8 +242,8 @@
         "a": "Google Maps may not show walking routes in Korea. Naver Map or KakaoMap is the safer choice."
       }
     ],
-    "closing": "On a day of light rain, look for the small light at the end of the lane.",
-    "imageAlt": "Two people with umbrellas walking down a dark, rainy lane"
+    "closing": "After the rain, step into the green tearoom down the lane.",
+    "imageAlt": "A bright window lined with potted plants, rain on the city outside"
   },
   "footer": {
     "instagram": "Instagram @cafekosame",
