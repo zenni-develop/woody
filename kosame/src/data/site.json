@@ -1,0 +1,211 @@
+{
+  "siteUrl": "https://zenni-develop.github.io/woody",
+  "updated": "2026-10-17",
+  "languages": [
+    "ko",
+    "ja",
+    "en"
+  ],
+  "hours": {
+    "timezone": "Asia/Seoul",
+    "open": "12:00",
+    "close": "21:00",
+    "closedWeekdays": [
+      4
+    ]
+  },
+  "links": {
+    "instagram": "https://www.instagram.com/cafekosame/",
+    "naverMap": "https://naver.me/GSDAEGmX",
+    "kakaoMap": "https://map.kakao.com/?q=%EC%B9%B4%ED%8E%98%EC%BD%94%EC%82%AC%EB%A9%94",
+    "googleMap": "https://maps.app.goo.gl/4wg4NYqbx1xYHEki7"
+  },
+  "primaryMap": {
+    "ko": "naverMap",
+    "ja": "googleMap",
+    "en": "googleMap"
+  },
+  "images": {
+    "hero": {
+      "src": "https://images.unsplash.com/photo-1643287146701-93c795880dda",
+      "w": 6000,
+      "h": 4000,
+      "focus": "50% 50%",
+      "author": "Max van den Oetelaar",
+      "page": "https://unsplash.com/photos/1e60bqR1Ar0"
+    },
+    "room": {
+      "src": "https://images.unsplash.com/photo-1631669394390-baf737ef47de",
+      "w": 3024,
+      "h": 4032,
+      "focus": "40% 50%",
+      "author": "PhilCreates",
+      "page": "https://unsplash.com/photos/xPtiN7OmaXg"
+    },
+    "matcha": {
+      "src": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7",
+      "w": 4898,
+      "h": 3265,
+      "focus": "55% 45%",
+      "author": "Jason Leung",
+      "page": "https://unsplash.com/photos/Z-hvocTfR_s"
+    },
+    "hojicha": {
+      "src": "https://images.unsplash.com/photo-1674642387246-463a03b100be",
+      "w": 4160,
+      "h": 6240,
+      "focus": "50% 60%",
+      "author": "Büşra İnce",
+      "page": "https://unsplash.com/photos/djWJLL91_KQ"
+    },
+    "dango": {
+      "src": "https://images.unsplash.com/photo-1785594023729-908a1bfb7d04",
+      "w": 9504,
+      "h": 6336,
+      "focus": "45% 50%",
+      "author": "Diana Bondarenko",
+      "page": "https://unsplash.com/photos/KMnVNWxbCVc"
+    },
+    "fig": {
+      "src": "https://images.unsplash.com/photo-1790293840932-a568128dbb1f",
+      "w": 8177,
+      "h": 5454,
+      "focus": "55% 60%",
+      "author": "Heather Newsom",
+      "page": "https://unsplash.com/photos/iW5MaQKTU6w"
+    },
+    "alley": {
+      "src": "https://images.unsplash.com/photo-1782915109136-49a43a42e239",
+      "w": 3839,
+      "h": 2400,
+      "focus": "50% 55%",
+      "author": "Julien",
+      "page": "https://unsplash.com/photos/7J50ltZEYdQ"
+    }
+  },
+  "ratings": [
+    {
+      "key": "google",
+      "score": "4.2",
+      "count": 54,
+      "url": "https://maps.app.goo.gl/4wg4NYqbx1xYHEki7"
+    },
+    {
+      "key": "diningcode",
+      "score": "3.9",
+      "count": 8,
+      "url": "https://www.diningcode.com/profile.php?rid=pDJ3ao9ajchy"
+    },
+    {
+      "key": "tripadvisor",
+      "score": "5.0",
+      "count": 1,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g297889-d17468736-Reviews-Cafe_Kosame-Incheon.html"
+    }
+  ],
+  "menu": [
+    {
+      "key": "mitarashi",
+      "group": "dango",
+      "price": 2900
+    },
+    {
+      "key": "injeolmi",
+      "group": "dango",
+      "price": 3200
+    },
+    {
+      "key": "matchaDango",
+      "group": "dango",
+      "price": 3500
+    },
+    {
+      "key": "figDango",
+      "group": "dango",
+      "price": 3700,
+      "season": "autumn"
+    },
+    {
+      "key": "strawberryDango",
+      "group": "dango",
+      "price": 3700,
+      "season": "winter"
+    },
+    {
+      "key": "matchaLatte",
+      "group": "tea",
+      "price": 7000
+    },
+    {
+      "key": "hojichaLatte",
+      "group": "tea",
+      "price": 6500
+    },
+    {
+      "key": "earlGrey",
+      "group": "tea",
+      "price": 6000
+    },
+    {
+      "key": "kosameWhite",
+      "group": "signature",
+      "price": 6800
+    },
+    {
+      "key": "melonSoda",
+      "group": "signature",
+      "price": 6800
+    },
+    {
+      "key": "coconutBlack",
+      "group": "signature",
+      "price": 6800
+    },
+    {
+      "key": "lemonFizz",
+      "group": "signature",
+      "price": 6800
+    },
+    {
+      "key": "americano",
+      "group": "coffee",
+      "price": 5000
+    },
+    {
+      "key": "coldBrew",
+      "group": "coffee",
+      "price": 5000
+    },
+    {
+      "key": "latte",
+      "group": "coffee",
+      "price": 5500
+    }
+  ],
+  "sources": [
+    {
+      "label": "Instagram @cafekosame",
+      "url": "https://www.instagram.com/cafekosame/"
+    },
+    {
+      "label": "Google Maps",
+      "url": "https://maps.app.goo.gl/4wg4NYqbx1xYHEki7"
+    },
+    {
+      "label": "DiningCode",
+      "url": "https://www.diningcode.com/profile.php?rid=pDJ3ao9ajchy"
+    },
+    {
+      "label": "Polle",
+      "url": "https://polle.com/place/2HVPl7/%EC%B9%B4%ED%8E%98%20%EC%BD%94%EC%82%AC%EB%A9%94"
+    },
+    {
+      "label": "Korea Visit",
+      "url": "https://www.koreavisit.kr/2024/04/delightful-dessert-cafes-in-incheons-gourmet-district/"
+    },
+    {
+      "label": "Tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g297889-d17468736-Reviews-Cafe_Kosame-Incheon.html"
+    }
+  ]
+}

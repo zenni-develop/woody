@@ -1,0 +1,257 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "ogLocale": "en_US",
+  "meta": {
+    "title": "Cafe Kosame | A small Japanese-style tearoom in Incheon",
+    "description": "Cafe Kosame is a ten-pyeong Japanese-style tearoom tucked into a quiet residential lane in Guwol-dong, Incheon. Mitarashi dango, rich matcha and hojicha drinks. Open 12–9 pm, closed Thursdays."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "nav": {
+      "story": "Story",
+      "menu": "Menu",
+      "visit": "Visit"
+    },
+    "langSwitch": "Choose language",
+    "cta": "Get directions in Google Maps",
+    "ctaShort": "Directions",
+    "readStory": "Read the story",
+    "status": {
+      "open": "Open now, until {close}.",
+      "before": "Opens today at {open}.",
+      "after": "Closed for today. Opens {next} at {open}.",
+      "closed": "Closed today. Opens {next} at {open}.",
+      "basis": "Based on regular hours"
+    },
+    "weekdays": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "tomorrow": "tomorrow",
+    "external": "opens in a new window",
+    "navLabel": "On this page",
+    "langSwitchFooter": "Choose language (footer)"
+  },
+  "hero": {
+    "place": "Guwol-dong, Incheon",
+    "title": [
+      "For a light-rain kind of day,",
+      "a small tearoom down the lane"
+    ],
+    "lead": "A few steps from the busy streets, in a quiet residential lane. Dango and matcha, served in a room of about 33 square meters.",
+    "imageAlt": "Evening lights blurred through a rain-speckled window"
+  },
+  "ki": {
+    "kanji": "起",
+    "label": "Arriving",
+    "heading": "The name comes from a gentle rain",
+    "paras": [
+      "Kosame (小雨) is Japanese for light rain. Like rain that falls without a sound, time here moves quietly.",
+      "About ten minutes on foot from Arts Center Station on Incheon Line 1. Where the noise of the Rodeo shopping street fades, a tearoom of wooden furniture, soft lamps, a few books and a small terrace waits in a residential lane.",
+      "Visitors have been writing about it since 2019, and it has kept its doors open in the same spot ever since."
+    ],
+    "note": "The owner credits regular guests for keeping such a small shop going for years, and closes each year with a promise to keep to the basics.",
+    "noteSource": "Summary of a Cafe Kosame Instagram post, December 2024",
+    "imageAlt": "A small warmly lit room with a wooden desk and bookshelves"
+  },
+  "sho": {
+    "kanji": "承",
+    "label": "Staying",
+    "heading": "A cup of tea, a skewer of dango",
+    "intro": "The menu centers on Japanese teas and dango. You order at a kiosk, and the owner makes each drink and dessert by hand.",
+    "groups": {
+      "dango": "Dango",
+      "tea": "Tea",
+      "signature": "Kosame drinks",
+      "coffee": "Coffee"
+    },
+    "items": {
+      "mitarashi": {
+        "name": "Mitarashi dango",
+        "desc": "A sweet-savory glaze of dark soy sauce and brown sugar, balanced with tsuyu and salt over a long run of trials."
+      },
+      "injeolmi": {
+        "name": "Roasted soybean dango"
+      },
+      "matchaDango": {
+        "name": "Matcha dango"
+      },
+      "figDango": {
+        "name": "Fig and red bean dango",
+        "desc": "Ripe figs with smooth red bean paste."
+      },
+      "strawberryDango": {
+        "name": "Strawberry and red bean dango"
+      },
+      "matchaLatte": {
+        "name": "Matcha latte",
+        "desc": "The drink visitors mention most for its depth and aroma."
+      },
+      "hojichaLatte": {
+        "name": "Hojicha latte",
+        "desc": "The toasty aroma of roasted green tea."
+      },
+      "earlGrey": {
+        "name": "Earl Grey milk tea"
+      },
+      "kosameWhite": {
+        "name": "Kosame White"
+      },
+      "melonSoda": {
+        "name": "Melon soda"
+      },
+      "coconutBlack": {
+        "name": "Coconut sherbet black"
+      },
+      "lemonFizz": {
+        "name": "Lemon sherbet fizz"
+      },
+      "americano": {
+        "name": "Americano"
+      },
+      "coldBrew": {
+        "name": "Cold brew",
+        "desc": "Decaf ₩5,500"
+      },
+      "latte": {
+        "name": "Caffè latte"
+      }
+    },
+    "season": {
+      "autumn": "Autumn",
+      "winter": "Winter"
+    },
+    "pairingTitle": "The owner’s suggested pairing",
+    "pairing": "If it’s your first time, start with the classic mitarashi dango and an unsweetened drink like an Americano or cold brew.",
+    "notes": [
+      "Dine in from a single skewer. Takeout starts at two.",
+      "Reviewers note the matcha is whisked by hand with a bamboo whisk.",
+      "Many visitors mention a side of cherry tomatoes pickled in Japanese plum.",
+      "Desserts are made in small batches each day."
+    ],
+    "priceNote": "Prices are from public listings as of October 2026 and may change.",
+    "imageAlt": {
+      "matcha": "Matcha latte with leaf-shaped latte art",
+      "hojicha": "A brown tea latte on a wooden coaster",
+      "dango": "Chewy dango on skewers",
+      "fig": "Halved figs on a linen cloth"
+    }
+  },
+  "ten": {
+    "kanji": "転",
+    "label": "Looking back",
+    "heading": "“Do you like dango?”",
+    "paras": [
+      "Taking orders, the owner often overhears guests asking each other this.",
+      "When someone who hesitated because they’d never tried dango hands back an empty plate, that is the best encouragement, the owner wrote."
+    ],
+    "paraSource": "Summary of a Cafe Kosame Instagram post, March 2026",
+    "ratingsTitle": "What visitors have recorded",
+    "ratingLabels": {
+      "google": "Google Maps",
+      "diningcode": "DiningCode",
+      "tripadvisor": "Tripadvisor"
+    },
+    "reviewsWord": "reviews",
+    "voices": [
+      {
+        "title": "What local visitors mention most",
+        "body": "A calm, quiet room, an interior like a tearoom in a small Japanese town, rich matcha and chewy dango. Many say it’s an easy place to go alone."
+      },
+      {
+        "title": "How it’s introduced to travelers",
+        "body": "Korea Visit, a Korea travel guide for international readers, calls it a little piece of Japan in Guwol-dong and a good spot for solo time. An English-language travel log app also lists it as a quiet Japanese-style cafe on the edge of Guwol-dong."
+      }
+    ],
+    "caveatsTitle": "Good to know before you go",
+    "caveats": [
+      "It’s small, so groups of four or more may not find a table.",
+      "There’s no dedicated parking.",
+      "The restroom is outside the building.",
+      "Some find the prices high for the portion size."
+    ],
+    "summaryNote": "Summarized from public reviews on several platforms."
+  },
+  "ketsu": {
+    "kanji": "結",
+    "label": "Visiting",
+    "heading": "Today, down the lane",
+    "lead": "It suits a rainy day best. Just check the closing day before you set out.",
+    "info": [
+      {
+        "term": "Hours",
+        "desc": "12:00–21:00, closed Thursdays"
+      },
+      {
+        "term": "Holidays",
+        "desc": "Special hours are posted on Instagram"
+      },
+      {
+        "term": "Address",
+        "desc": "1F, 23 Inju-daero 522beon-gil, Namdong-gu, Incheon (인천 남동구 인주대로522번길 23)"
+      },
+      {
+        "term": "Getting there",
+        "desc": "About 10 minutes on foot from Arts Center Station, Incheon Line 1"
+      },
+      {
+        "term": "Parking",
+        "desc": "No dedicated parking. Use a nearby public lot"
+      },
+      {
+        "term": "Ordering",
+        "desc": "Kiosk ordering, one item per person"
+      },
+      {
+        "term": "Pets",
+        "desc": "Not allowed inside since March 2026"
+      }
+    ],
+    "mapsTitle": "Open in a map app",
+    "maps": {
+      "naverMap": "Naver Map",
+      "kakaoMap": "KakaoMap",
+      "googleMap": "Google Maps"
+    },
+    "faqTitle": "Questions",
+    "faq": [
+      {
+        "q": "Is it a good place to go alone?",
+        "a": "Yes. Coming alone is what reviewers mention most. You can order a single skewer of dango when dining in."
+      },
+      {
+        "q": "Can a group of four or more visit?",
+        "a": "The cafe notes that groups of four or more may sometimes not find a table because the room is small. Quieter hours work best."
+      },
+      {
+        "q": "Can I take dango to go?",
+        "a": "Takeout starts at two skewers. Single-skewer packaging is in the works."
+      },
+      {
+        "q": "Can I bring my pet?",
+        "a": "Pets haven’t been allowed inside since March 1, 2026, due to new facility rules."
+      },
+      {
+        "q": "Which map app should I use in Korea?",
+        "a": "Google Maps may not show walking routes in Korea. Naver Map or KakaoMap is the safer choice."
+      }
+    ],
+    "closing": "On a day of light rain, look for the small light at the end of the lane.",
+    "imageAlt": "Two people with umbrellas walking down a dark, rainy lane"
+  },
+  "footer": {
+    "instagram": "Instagram @cafekosame",
+    "instagramNote": "Closures and new menu items appear on Instagram first.",
+    "photoNote": "Photos on this page are mood images from Unsplash. They don’t show the actual cafe or its menu.",
+    "updated": "Information as of",
+    "sources": "Sources",
+    "credits": "Photos",
+    "disclaimer": "An introduction page based on publicly available information. Please check hours and prices on Instagram before you visit."
+  }
+}
