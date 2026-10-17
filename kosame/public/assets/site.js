@@ -72,6 +72,38 @@
     rails.forEach((r) => io.observe(r));
   }
 
+  /* ---------- section links: highlight where the reader is ---------- */
+  const navLinks = [...document.querySelectorAll("[data-nav]")];
+  const sections = navLinks.map((a) => {
+    const target = document.querySelector(a.getAttribute("href"));
+    return target ? target.closest("section") : null;
+  });
+  let currentHash = "";
+  if (navLinks.length && "IntersectionObserver" in window) {
+    const seen = new Map();
+    const pick = () => {
+      let best = -1, bestRatio = 0;
+      sections.forEach((s, i) => { const r = seen.get(s) || 0; if (r > bestRatio) { bestRatio = r; best = i; } });
+      navLinks.forEach((a, i) => {
+        if (i === best) a.setAttribute("aria-current", "location"); else a.removeAttribute("aria-current");
+      });
+      currentHash = best >= 0 ? navLinks[best].getAttribute("href") : "";
+    };
+    const io2 = new IntersectionObserver((entries) => {
+      entries.forEach((e) => seen.set(e.target, e.isIntersecting ? e.intersectionRatio : 0));
+      pick();
+    }, { threshold: [0, 0.15, 0.3, 0.5, 0.75], rootMargin: "-80px 0px -30% 0px" });
+    sections.forEach((s) => s && io2.observe(s));
+  }
+
+  /* ---------- switching language keeps the section you were reading ---------- */
+  document.addEventListener("click", (ev) => {
+    const a = ev.target.closest("[data-lang-link]");
+    if (!a || a.getAttribute("aria-current") === "page") return;
+    const hash = location.hash && /^#(story|menu|visit)$/.test(location.hash) ? location.hash : currentHash;
+    if (hash) a.href = a.href.split("#")[0] + hash;
+  });
+
   /* ---------- swipe row: focusable only while it scrolls (keyboard users can arrow through) ---------- */
   const swipes = document.querySelectorAll("[data-swipe]");
   const syncSwipe = () => swipes.forEach((el) => {

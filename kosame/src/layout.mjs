@@ -34,7 +34,7 @@ function langSwitch(t, all, here, label = t.ui.langSwitch) {
   const items = all
     .map((o) => {
       const current = o.lang === here;
-      return `<li><a href="../${o.lang}/" hreflang="${o.lang}" lang="${o.lang}"${current ? ' aria-current="page"' : ""}>${esc(o.langName)}</a></li>`;
+      return `<li><a href="../${o.lang}/index.html" hreflang="${o.lang}" lang="${o.lang}" data-lang-link${current ? ' aria-current="page"' : ""}>${esc(o.langName)}</a></li>`;
     })
     .join("");
   return `<nav class="langs" aria-label="${esc(label)}"><ul>${items}</ul></nav>`;
@@ -172,9 +172,9 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     <span class="bar__kanji" lang="ja">小雨</span><span class="bar__word">KOSAME</span>
   </a>
   <nav class="bar__nav" aria-label="${esc(t.ui.navLabel)}">
-    <a href="#story">${esc(t.ui.nav.story)}</a>
-    <a href="#menu">${esc(t.ui.nav.menu)}</a>
-    <a href="#visit">${esc(t.ui.nav.visit)}</a>
+    <a href="#story" data-nav>${esc(t.ui.nav.story)}</a>
+    <a href="#menu" data-nav>${esc(t.ui.nav.menu)}</a>
+    <a href="#visit" data-nav>${esc(t.ui.nav.visit)}</a>
   </nav>
   ${langSwitch(t, all, lang)}
   ${extLink(mapUrl, esc(t.ui.ctaShort), t, `class="bar__cta" data-track="directions-bar" data-lang="${lang}" data-map="${mapKey}"`)}
@@ -251,11 +251,11 @@ ${head({ site, t, all, lang, title: t.meta.title, description: t.meta.descriptio
     </div>
   </section>
 
-  <section class="chapter chapter--band chapter--ketsu" id="visit" aria-labelledby="ketsu-title">
+  <section class="chapter chapter--band chapter--ketsu" aria-labelledby="ketsu-title">
     <div class="ketsu__media">${img(site, "window", t.ketsu.imageAlt, { sizes: "100vw" })}</div>
     ${rail(t.ketsu)}
     <div class="chapter__text">
-      <h2 id="ketsu-title" class="chapter__title">${esc(t.ketsu.heading)}</h2>
+      <h2 id="ketsu-title" class="chapter__title"><span id="visit" class="anchor"></span>${esc(t.ketsu.heading)}</h2>
       <p>${esc(t.ketsu.lead)}</p>
       <dl class="info">${info}</dl>
       <h3 class="small-title">${esc(t.ketsu.mapsTitle)}</h3>
@@ -301,7 +301,7 @@ export function renderRoot({ site, all }) {
   const choices = all
     .map(
       (o) =>
-        `<li><a class="choice" href="${o.lang}/" hreflang="${o.lang}" lang="${o.lang}" data-lang-choice="${o.lang}"><span class="choice__name">${esc(o.langName)}</span><span class="choice__title">${esc(o.hero.title.join(" "))}</span></a></li>`
+        `<li><a class="choice" href="${o.lang}/index.html" hreflang="${o.lang}" lang="${o.lang}" data-lang-choice="${o.lang}"><span class="choice__name">${esc(o.langName)}</span><span class="choice__title">${esc(o.hero.title.join(" "))}</span></a></li>`
     )
     .join("");
   return `<!doctype html>
